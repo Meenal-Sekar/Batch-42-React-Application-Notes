@@ -1,0 +1,45 @@
+React List Example using map()
+Concept
+In React, we use the map() function to display multiple items from an array.
+Instead of writing multiple HTML elements manually, React can loop through data 
+and render it dynamically.
+
+<ul>
+<li></li>
+</ul>
+
+let fruits=['apple','orange','kiwi']
+
+let a1=fruits.map((a2)=>
+{
+    return a2;
+})
+
+
+//event handling     
+
+<button onclick="sample()"> Login </button>
+
+button.addEventListner("click",sample);
+
+function sample()
+{
+
+}
+
+onclick
+onmouse
+onrender
+onchange
+
+
+What is hooks?
+
+Hooks allow functions to have access
+ to state and other React features without using classes.
+
+Rules for creating hooks?
+
+    Hooks can only be called inside React function components.
+    Hooks can only be called at the top level of a component.
+    Hooks cannot be conditional
