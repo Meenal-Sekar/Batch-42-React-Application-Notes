@@ -1,0 +1,22 @@
+npm install @reduxjs/toolkit react-redux
+
+npm install tailwindcss @tailwindcss/vite
+
+
+
+step 1:
+
+components  (grocery management)
+
+
+additem,deleteitem,edititem---->reducers   (slice,name,reducers,initial value)  (slice)
+
+
+sliece     -->grocery: groceryReducer   
+
+(slice--->store)  (Global )
+
+componet  (slice)
+
+
+main-jsx  (what is store what is provider)
